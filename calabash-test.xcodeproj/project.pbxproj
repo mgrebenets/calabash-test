@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E442FAA4175444340084A1C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442FAA3175444340084A1C6 /* UIKit.framework */; };
+		E442FAA6175444340084A1C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442FAA5175444340084A1C6 /* Foundation.framework */; };
+		E442FAA8175444340084A1C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442FAA7175444340084A1C6 /* CoreGraphics.framework */; };
+		E442FAAE175444340084A1C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E442FAAC175444340084A1C6 /* InfoPlist.strings */; };
+		E442FAB0175444340084A1C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAAF175444340084A1C6 /* main.m */; };
+		E442FAB4175444340084A1C6 /* NLCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAB3175444340084A1C6 /* NLCAppDelegate.m */; };
+		E442FAB6175444340084A1C6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E442FAB5175444340084A1C6 /* Default.png */; };
+		E442FAB8175444340084A1C6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E442FAB7175444340084A1C6 /* Default@2x.png */; };
+		E442FABA175444340084A1C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E442FAB9175444340084A1C6 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E442FAA0175444340084A1C6 /* calabash-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calabash-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E442FAA3175444340084A1C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E442FAA5175444340084A1C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E442FAA7175444340084A1C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E442FAAB175444340084A1C6 /* calabash-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calabash-test-Info.plist"; sourceTree = "<group>"; };
+		E442FAAD175444340084A1C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E442FAAF175444340084A1C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E442FAB1175444340084A1C6 /* calabash-test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "calabash-test-Prefix.pch"; sourceTree = "<group>"; };
+		E442FAB2175444340084A1C6 /* NLCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLCAppDelegate.h; sourceTree = "<group>"; };
+		E442FAB3175444340084A1C6 /* NLCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLCAppDelegate.m; sourceTree = "<group>"; };
+		E442FAB5175444340084A1C6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E442FAB7175444340084A1C6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E442FAB9175444340084A1C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E442FA9D175444340084A1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442FAA4175444340084A1C6 /* UIKit.framework in Frameworks */,
+				E442FAA6175444340084A1C6 /* Foundation.framework in Frameworks */,
+				E442FAA8175444340084A1C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E442FA97175444340084A1C6 = {
+			isa = PBXGroup;
+			children = (
+				E442FAA9175444340084A1C6 /* calabash-test */,
+				E442FAA2175444340084A1C6 /* Frameworks */,
+				E442FAA1175444340084A1C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E442FAA1175444340084A1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E442FAA0175444340084A1C6 /* calabash-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E442FAA2175444340084A1C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E442FAA3175444340084A1C6 /* UIKit.framework */,
+				E442FAA5175444340084A1C6 /* Foundation.framework */,
+				E442FAA7175444340084A1C6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E442FAA9175444340084A1C6 /* calabash-test */ = {
+			isa = PBXGroup;
+			children = (
+				E442FAB2175444340084A1C6 /* NLCAppDelegate.h */,
+				E442FAB3175444340084A1C6 /* NLCAppDelegate.m */,
+				E442FAAA175444340084A1C6 /* Supporting Files */,
+			);
+			path = "calabash-test";
+			sourceTree = "<group>";
+		};
+		E442FAAA175444340084A1C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E442FAAB175444340084A1C6 /* calabash-test-Info.plist */,
+				E442FAAC175444340084A1C6 /* InfoPlist.strings */,
+				E442FAAF175444340084A1C6 /* main.m */,
+				E442FAB1175444340084A1C6 /* calabash-test-Prefix.pch */,
+				E442FAB5175444340084A1C6 /* Default.png */,
+				E442FAB7175444340084A1C6 /* Default@2x.png */,
+				E442FAB9175444340084A1C6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E442FA9F175444340084A1C6 /* calabash-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E442FABD175444340084A1C6 /* Build configuration list for PBXNativeTarget "calabash-test" */;
+			buildPhases = (
+				E442FA9C175444340084A1C6 /* Sources */,
+				E442FA9D175444340084A1C6 /* Frameworks */,
+				E442FA9E175444340084A1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "calabash-test";
+			productName = "calabash-test";
+			productReference = E442FAA0175444340084A1C6 /* calabash-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E442FA98175444340084A1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NLC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "News Limited";
+			};
+			buildConfigurationList = E442FA9B175444340084A1C6 /* Build configuration list for PBXProject "calabash-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E442FA97175444340084A1C6;
+			productRefGroup = E442FAA1175444340084A1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E442FA9F175444340084A1C6 /* calabash-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E442FA9E175444340084A1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442FAAE175444340084A1C6 /* InfoPlist.strings in Resources */,
+				E442FAB6175444340084A1C6 /* Default.png in Resources */,
+				E442FAB8175444340084A1C6 /* Default@2x.png in Resources */,
+				E442FABA175444340084A1C6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E442FA9C175444340084A1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442FAB0175444340084A1C6 /* main.m in Sources */,
+				E442FAB4175444340084A1C6 /* NLCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E442FAAC175444340084A1C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E442FAAD175444340084A1C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E442FABB175444340084A1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E442FABC175444340084A1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E442FABE175444340084A1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calabash-test/calabash-test-Prefix.pch";
+				INFOPLIST_FILE = "calabash-test/calabash-test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E442FABF175444340084A1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calabash-test/calabash-test-Prefix.pch";
+				INFOPLIST_FILE = "calabash-test/calabash-test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E442FA9B175444340084A1C6 /* Build configuration list for PBXProject "calabash-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E442FABB175444340084A1C6 /* Debug */,
+				E442FABC175444340084A1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E442FABD175444340084A1C6 /* Build configuration list for PBXNativeTarget "calabash-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E442FABE175444340084A1C6 /* Debug */,
+				E442FABF175444340084A1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E442FA98175444340084A1C6 /* Project object */;
+}
