@@ -7,15 +7,40 @@
 //
 
 #import "NLCAppDelegate.h"
+#import <ECSlidingViewController.h>
+#import "ThirdyPartyHacks.h"
+#import "NLCContentViewController.h"
 
 @implementation NLCAppDelegate
+@synthesize navController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    ECSlidingViewController *slider = [[PatchedECSlidingViewController alloc] init];
+	[slider setAnchorRightRevealAmount:274.0f];
+	slider.anchorLeftPeekAmount = 20;
+	slider.underLeftWidthLayout = ECFixedRevealWidth;
+	slider.topViewController = navController;
+
+    [navController.view addGestureRecognizer:navController.slidingViewController.panGesture];
+
+    
+    self.window.rootViewController = slider;
     [self.window makeKeyAndVisible];
+    
+    
+    NLCContentViewController *ctl = [[NLCContentViewController alloc] initWithNibName:@"NLCContentViewController" bundle:nil];
+    
+//    CATransition *transition;
+//    transition = [CATransition animation];
+//    transition.type = kCATransitionPush;
+//    transition.subtype = kCATransitionFromTop;
+//    transition.duration = 0.3;
+//    [self.navController.view.layer addAnimation:transition forKey:nil];
+    
+    [self.navController pushViewController:ctl animated:NO];
+    
     return YES;
 }
 
