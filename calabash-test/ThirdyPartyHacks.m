@@ -77,6 +77,8 @@ MethodSwizzle(Class c, SEL origSEL, SEL overrideSEL) {
 	_slideClosing = YES;	[self topViewHorizontalCenterWillChange:self.resettedCenter];
 
 	UIView *panView = self.panGesture.view;
+    panView.accessibilityLabel = @"panView";
+    NSLog(@"panView gr: %@", panView.gestureRecognizers);
 	[panView removeGestureRecognizer:self.panGesture];
 	// END TM-168 WORKAROUND
 	

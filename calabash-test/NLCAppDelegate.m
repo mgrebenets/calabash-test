@@ -24,11 +24,16 @@
 	slider.topViewController = navController;
 
     [navController.view addGestureRecognizer:navController.slidingViewController.panGesture];
+    
 
-    
     self.window.rootViewController = slider;
+    self.window.accessibilityLabel = @"window";
     [self.window makeKeyAndVisible];
-    
+
+//    navController.view.accessibilityLabel = @"navViewController.view";
+//    navController.navigationBar.accessibilityLabel = @"navigationBar";
+//    navController.navigationItem.accessibilityLabel = @"navigationItem";
+
     
     NLCContentViewController *ctl = [[NLCContentViewController alloc] initWithNibName:@"NLCContentViewController" bundle:nil];
     

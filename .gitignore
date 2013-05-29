@@ -22,3 +22,4 @@ Podfile.lock
 *.bak
 xcodebuild.log
 calabash.framework/
+.irb-history

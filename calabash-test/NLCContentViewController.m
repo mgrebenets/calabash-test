@@ -28,6 +28,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.view.accessibilityLabel = @"content view";
+    self.view.backgroundColor = [UIColor colorWithRed:1.0 green:0 blue:0 alpha:1.0];
+    self.toolbar.accessibilityLabel = @"toolbar";
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,6 +48,9 @@
     while (!(viewController == nil || [viewController isKindOfClass:[ECSlidingViewController class]])) {
         viewController = viewController.parentViewController;
     }
+    
+    viewController.view.accessibilityLabel = @"slider view";
+    viewController.view.backgroundColor = [UIColor colorWithRed:0 green:0 blue:1.0 alpha:1.0];
     
     return (ECSlidingViewController *)viewController;
 }
