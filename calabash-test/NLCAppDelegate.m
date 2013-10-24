@@ -10,6 +10,7 @@
 #import <ECSlidingViewController.h>
 #import "ThirdyPartyHacks.h"
 #import "NLCContentViewController.h"
+#import "NLCSharingViewController.h"
 
 @implementation NLCAppDelegate
 @synthesize navController;
@@ -17,6 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
+    
+#if 0
     ECSlidingViewController *slider = [[PatchedECSlidingViewController alloc] init];
 	[slider setAnchorRightRevealAmount:274.0f];
 	slider.anchorLeftPeekAmount = 20;
@@ -26,25 +29,17 @@
     [navController.view addGestureRecognizer:navController.slidingViewController.panGesture];
     
 
-    self.window.rootViewController = slider;
-    self.window.accessibilityLabel = @"window";
-    [self.window makeKeyAndVisible];
-
-//    navController.view.accessibilityLabel = @"navViewController.view";
-//    navController.navigationBar.accessibilityLabel = @"navigationBar";
-//    navController.navigationItem.accessibilityLabel = @"navigationItem";
 
     
     NLCContentViewController *ctl = [[NLCContentViewController alloc] initWithNibName:@"NLCContentViewController" bundle:nil];
-    
-//    CATransition *transition;
-//    transition = [CATransition animation];
-//    transition.type = kCATransitionPush;
-//    transition.subtype = kCATransitionFromTop;
-//    transition.duration = 0.3;
-//    [self.navController.view.layer addAnimation:transition forKey:nil];
-    
-    [self.navController pushViewController:ctl animated:NO];
+#endif
+
+    NLCSharingViewController *ctl = [[NLCSharingViewController alloc] initWithNibName:@"NLCSharingViewController" bundle:nil];
+
+    self.window.rootViewController = ctl;
+    self.window.accessibilityLabel = @"window";
+    [self.window makeKeyAndVisible];
+
     
     return YES;
 }

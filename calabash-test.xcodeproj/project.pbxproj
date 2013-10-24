@@ -1,1201 +1,530 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0635d5c7b8590d1a33e29a72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAC3175447280084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0be8eb8323ac8d05689c48a2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>63425BC8FF49483EB72FA681</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0ca80548a6f9b9185f0be3e9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AE2D3435AB944757A18A5622</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"$(SRCROOT)"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>calabash-test/calabash-test-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>calabash-test/calabash-test-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>-force_load</string>
-					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
-					<string>-lstdc++</string>
-				</array>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>18337fec941dd7ae31ce5f5e</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>300ead2aaad04136fed93c53</string>
-			<key>buildPhases</key>
-			<array>
-				<string>e664a9661f4c204ff4233d6e</string>
-				<string>4a511a1da7c75ecd880cb57e</string>
-				<string>67050cf5127e32741c099115</string>
-				<string>f61dce93e09cf66843b33421</string>
-				<string>f365b186af984026526d62c8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>calabash-test-cal</string>
-			<key>productName</key>
-			<string>calabash-test-cal</string>
-			<key>productReference</key>
-			<string>994760b92b2d89078862e7f0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>2bd7c86751d16c67e949e0a1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAC6175449A90084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>300ead2aaad04136fed93c53</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0ca80548a6f9b9185f0be3e9</string>
-				<string>93bf3ff96bb1aacf98746c7e</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>418f94dd744ef35931a97dc6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAB9175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4a511a1da7c75ecd880cb57e</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>aff55709c637243e4f0c1b65</string>
-				<string>5089ee2b877a2a9ee6e9e0d9</string>
-				<string>c7d0c39ee8ed9b276ebcc913</string>
-				<string>2bd7c86751d16c67e949e0a1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5089ee2b877a2a9ee6e9e0d9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAB3175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>51f8e27b5e14cf19dcefb23f</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAC7175449A90084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>63425BC8FF49483EB72FA681</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>663642d2d838f77132ff37fe</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>calabash.framework</string>
-			<key>path</key>
-			<string>calabash.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67050cf5127e32741c099115</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>756b48c7d557a8dfc1a655e9</string>
-				<string>92135c68914ab9f03e776c10</string>
-				<string>85aed5c7d00c77ebf0ebf543</string>
-				<string>0be8eb8323ac8d05689c48a2</string>
-				<string>8ba3bdb40d23c1607d0c1dc6</string>
-				<string>f78d7c45503200b661c4215f</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7407f5111826346bd33c187b</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAAC175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>756b48c7d557a8dfc1a655e9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAA3175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>85aed5c7d00c77ebf0ebf543</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAA7175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8ba3bdb40d23c1607d0c1dc6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>bd5eee1a5b051f0fd676b4f0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92135c68914ab9f03e776c10</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAA5175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93854582406430bfd1f42217</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAB7175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93bf3ff96bb1aacf98746c7e</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AE2D3435AB944757A18A5622</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"$(SRCROOT)"</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>calabash-test/calabash-test-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>calabash-test/calabash-test-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>-force_load</string>
-					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
-					<string>-lstdc++</string>
-				</array>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>994760b92b2d89078862e7f0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>calabash-test-cal.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AE2D3435AB944757A18A5622</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C7873303673D4A6B84B46A2D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-		</dict>
-		<key>E442FA97175444340084A1C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E442FAC3175447280084A1C6</string>
-				<string>E442FAC5175449A90084A1C6</string>
-				<string>E442FAC6175449A90084A1C6</string>
-				<string>E442FAC7175449A90084A1C6</string>
-				<string>E442FAA9175444340084A1C6</string>
-				<string>E442FAA2175444340084A1C6</string>
-				<string>E442FAA1175444340084A1C6</string>
-				<string>AE2D3435AB944757A18A5622</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FA98175444340084A1C6</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>NLC</string>
-				<key>LastUpgradeCheck</key>
-				<string>0460</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>News Limited</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>E442FA9B175444340084A1C6</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>E442FA97175444340084A1C6</string>
-			<key>productRefGroup</key>
-			<string>E442FAA1175444340084A1C6</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>E442FA9F175444340084A1C6</string>
-				<string>18337fec941dd7ae31ce5f5e</string>
-			</array>
-		</dict>
-		<key>E442FA9B175444340084A1C6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E442FABB175444340084A1C6</string>
-				<string>E442FABC175444340084A1C6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E442FA9C175444340084A1C6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E442FAB0175444340084A1C6</string>
-				<string>E442FAB4175444340084A1C6</string>
-				<string>E442FAC2175446100084A1C6</string>
-				<string>E442FAC8175449A90084A1C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E442FA9D175444340084A1C6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E442FAA4175444340084A1C6</string>
-				<string>E442FAA6175444340084A1C6</string>
-				<string>E442FAA8175444340084A1C6</string>
-				<string>E9E0384A69134D3DB7DE0915</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E442FA9E175444340084A1C6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E442FAAE175444340084A1C6</string>
-				<string>E442FAB6175444340084A1C6</string>
-				<string>E442FAB8175444340084A1C6</string>
-				<string>E442FABA175444340084A1C6</string>
-				<string>E442FAC4175447280084A1C6</string>
-				<string>E442FAC9175449A90084A1C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E442FA9F175444340084A1C6</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E442FABD175444340084A1C6</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EBE5C2B11F3945C4807DA1D2</string>
-				<string>E442FA9C175444340084A1C6</string>
-				<string>E442FA9D175444340084A1C6</string>
-				<string>E442FA9E175444340084A1C6</string>
-				<string>C7873303673D4A6B84B46A2D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>calabash-test</string>
-			<key>productName</key>
-			<string>calabash-test</string>
-			<key>productReference</key>
-			<string>E442FAA0175444340084A1C6</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>E442FAA0175444340084A1C6</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>calabash-test.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E442FAA1175444340084A1C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E442FAA0175444340084A1C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAA2175444340084A1C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E442FAA3175444340084A1C6</string>
-				<string>E442FAA5175444340084A1C6</string>
-				<string>E442FAA7175444340084A1C6</string>
-				<string>63425BC8FF49483EB72FA681</string>
-				<string>bd5eee1a5b051f0fd676b4f0</string>
-				<string>663642d2d838f77132ff37fe</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>path</key>
-			<string></string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAA3175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E442FAA4175444340084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAA3175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAA5175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E442FAA6175444340084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAA5175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAA7175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E442FAA8175444340084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAA7175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAA9175444340084A1C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E442FAC0175446100084A1C6</string>
-				<string>E442FAC1175446100084A1C6</string>
-				<string>E442FAB2175444340084A1C6</string>
-				<string>E442FAB3175444340084A1C6</string>
-				<string>E442FAAA175444340084A1C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>calabash-test</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAAA175444340084A1C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E442FAAB175444340084A1C6</string>
-				<string>E442FAAC175444340084A1C6</string>
-				<string>E442FAAF175444340084A1C6</string>
-				<string>E442FAB1175444340084A1C6</string>
-				<string>E442FAB5175444340084A1C6</string>
-				<string>E442FAB7175444340084A1C6</string>
-				<string>E442FAB9175444340084A1C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAAB175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>calabash-test-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAAC175444340084A1C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E442FAAD175444340084A1C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAAD175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAAE175444340084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAAC175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAAF175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAB0175444340084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAAF175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAB1175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>calabash-test-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAB2175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NLCAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAB3175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NLCAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAB4175444340084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAB3175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAB5175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAB6175444340084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAB5175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAB7175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAB8175444340084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAB7175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAB9175444340084A1C6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FABA175444340084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAB9175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FABB175444340084A1C6</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E442FABC175444340084A1C6</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.1</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E442FABD175444340084A1C6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E442FABE175444340084A1C6</string>
-				<string>E442FABF175444340084A1C6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E442FABE175444340084A1C6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AE2D3435AB944757A18A5622</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>calabash-test/calabash-test-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>calabash-test/calabash-test-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E442FABF175444340084A1C6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AE2D3435AB944757A18A5622</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>calabash-test/calabash-test-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>calabash-test/calabash-test-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.1</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E442FAC0175446100084A1C6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ThirdyPartyHacks.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAC1175446100084A1C6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ThirdyPartyHacks.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAC2175446100084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAC1175446100084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAC3175447280084A1C6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>Window-iPad.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAC4175447280084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAC3175447280084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAC5175449A90084A1C6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NLCContentViewController.h</string>
-			<key>path</key>
-			<string>calabash-test/NLCContentViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAC6175449A90084A1C6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NLCContentViewController.m</string>
-			<key>path</key>
-			<string>calabash-test/NLCContentViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAC7175449A90084A1C6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>NLCContentViewController.xib</string>
-			<key>path</key>
-			<string>calabash-test/NLCContentViewController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E442FAC8175449A90084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAC6175449A90084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E442FAC9175449A90084A1C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAC7175449A90084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9E0384A69134D3DB7DE0915</key>
-		<dict>
-			<key>fileRef</key>
-			<string>63425BC8FF49483EB72FA681</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBE5C2B11F3945C4807DA1D2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-		</dict>
-		<key>a85a882e4b46926bc15afb9a</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAB5175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>aff55709c637243e4f0c1b65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAAF175444340084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>bd5eee1a5b051f0fd676b4f0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CFNetwork.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CFNetwork.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>c7d0c39ee8ed9b276ebcc913</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E442FAC1175446100084A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>e664a9661f4c204ff4233d6e</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-		</dict>
-		<key>f365b186af984026526d62c8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-		</dict>
-		<key>f61dce93e09cf66843b33421</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7407f5111826346bd33c187b</string>
-				<string>a85a882e4b46926bc15afb9a</string>
-				<string>93854582406430bfd1f42217</string>
-				<string>418f94dd744ef35931a97dc6</string>
-				<string>0635d5c7b8590d1a33e29a72</string>
-				<string>51f8e27b5e14cf19dcefb23f</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>f78d7c45503200b661c4215f</key>
-		<dict>
-			<key>fileRef</key>
-			<string>663642d2d838f77132ff37fe</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>E442FA98175444340084A1C6</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0635d5c7b8590d1a33e29a72 /* Window-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E442FAC3175447280084A1C6 /* Window-iPad.xib */; };
+		0be8eb8323ac8d05689c48a2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63425BC8FF49483EB72FA681 /* libPods.a */; };
+		2bd7c86751d16c67e949e0a1 /* NLCContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAC6175449A90084A1C6 /* NLCContentViewController.m */; };
+		418f94dd744ef35931a97dc6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E442FAB9175444340084A1C6 /* Default-568h@2x.png */; };
+		5089ee2b877a2a9ee6e9e0d9 /* NLCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAB3175444340084A1C6 /* NLCAppDelegate.m */; };
+		51f8e27b5e14cf19dcefb23f /* NLCContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E442FAC7175449A90084A1C6 /* NLCContentViewController.xib */; };
+		7407f5111826346bd33c187b /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E442FAAC175444340084A1C6 /* InfoPlist.strings */; };
+		756b48c7d557a8dfc1a655e9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442FAA3175444340084A1C6 /* UIKit.framework */; };
+		85aed5c7d00c77ebf0ebf543 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442FAA7175444340084A1C6 /* CoreGraphics.framework */; };
+		8ba3bdb40d23c1607d0c1dc6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = bd5eee1a5b051f0fd676b4f0 /* CFNetwork.framework */; };
+		92135c68914ab9f03e776c10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442FAA5175444340084A1C6 /* Foundation.framework */; };
+		93854582406430bfd1f42217 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E442FAB7175444340084A1C6 /* Default@2x.png */; };
+		E442FAA4175444340084A1C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442FAA3175444340084A1C6 /* UIKit.framework */; };
+		E442FAA6175444340084A1C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442FAA5175444340084A1C6 /* Foundation.framework */; };
+		E442FAA8175444340084A1C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442FAA7175444340084A1C6 /* CoreGraphics.framework */; };
+		E442FAAE175444340084A1C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E442FAAC175444340084A1C6 /* InfoPlist.strings */; };
+		E442FAB0175444340084A1C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAAF175444340084A1C6 /* main.m */; };
+		E442FAB4175444340084A1C6 /* NLCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAB3175444340084A1C6 /* NLCAppDelegate.m */; };
+		E442FAB6175444340084A1C6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E442FAB5175444340084A1C6 /* Default.png */; };
+		E442FAB8175444340084A1C6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E442FAB7175444340084A1C6 /* Default@2x.png */; };
+		E442FABA175444340084A1C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E442FAB9175444340084A1C6 /* Default-568h@2x.png */; };
+		E442FAC2175446100084A1C6 /* ThirdyPartyHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAC1175446100084A1C6 /* ThirdyPartyHacks.m */; };
+		E442FAC4175447280084A1C6 /* Window-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E442FAC3175447280084A1C6 /* Window-iPad.xib */; };
+		E442FAC8175449A90084A1C6 /* NLCContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAC6175449A90084A1C6 /* NLCContentViewController.m */; };
+		E442FAC9175449A90084A1C6 /* NLCContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E442FAC7175449A90084A1C6 /* NLCContentViewController.xib */; };
+		E48805F21818E1C50051FC91 /* NLCSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48805F01818E1C50051FC91 /* NLCSharingViewController.m */; };
+		E48805F31818E1C50051FC91 /* NLCSharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48805F01818E1C50051FC91 /* NLCSharingViewController.m */; };
+		E48805F41818E1C50051FC91 /* NLCSharingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E48805F11818E1C50051FC91 /* NLCSharingViewController.xib */; };
+		E48805F51818E1C50051FC91 /* NLCSharingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E48805F11818E1C50051FC91 /* NLCSharingViewController.xib */; };
+		E9E0384A69134D3DB7DE0915 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63425BC8FF49483EB72FA681 /* libPods.a */; };
+		a85a882e4b46926bc15afb9a /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E442FAB5175444340084A1C6 /* Default.png */; };
+		aff55709c637243e4f0c1b65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAAF175444340084A1C6 /* main.m */; };
+		c7d0c39ee8ed9b276ebcc913 /* ThirdyPartyHacks.m in Sources */ = {isa = PBXBuildFile; fileRef = E442FAC1175446100084A1C6 /* ThirdyPartyHacks.m */; };
+		f78d7c45503200b661c4215f /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663642d2d838f77132ff37fe /* calabash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63425BC8FF49483EB72FA681 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		663642d2d838f77132ff37fe /* calabash.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		AE2D3435AB944757A18A5622 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E442FAA0175444340084A1C6 /* calabash-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calabash-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E442FAA3175444340084A1C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E442FAA5175444340084A1C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E442FAA7175444340084A1C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E442FAAB175444340084A1C6 /* calabash-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calabash-test-Info.plist"; sourceTree = "<group>"; };
+		E442FAAD175444340084A1C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E442FAAF175444340084A1C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E442FAB1175444340084A1C6 /* calabash-test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "calabash-test-Prefix.pch"; sourceTree = "<group>"; };
+		E442FAB2175444340084A1C6 /* NLCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLCAppDelegate.h; sourceTree = "<group>"; };
+		E442FAB3175444340084A1C6 /* NLCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLCAppDelegate.m; sourceTree = "<group>"; };
+		E442FAB5175444340084A1C6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E442FAB7175444340084A1C6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E442FAB9175444340084A1C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E442FAC0175446100084A1C6 /* ThirdyPartyHacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdyPartyHacks.h; sourceTree = "<group>"; };
+		E442FAC1175446100084A1C6 /* ThirdyPartyHacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdyPartyHacks.m; sourceTree = "<group>"; };
+		E442FAC3175447280084A1C6 /* Window-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Window-iPad.xib"; sourceTree = "<group>"; };
+		E442FAC5175449A90084A1C6 /* NLCContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLCContentViewController.h; path = "calabash-test/NLCContentViewController.h"; sourceTree = "<group>"; };
+		E442FAC6175449A90084A1C6 /* NLCContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLCContentViewController.m; path = "calabash-test/NLCContentViewController.m"; sourceTree = "<group>"; };
+		E442FAC7175449A90084A1C6 /* NLCContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NLCContentViewController.xib; path = "calabash-test/NLCContentViewController.xib"; sourceTree = "<group>"; };
+		E48805EE1818DFB80051FC91 /* calabash-test-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calabash-test-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48805EF1818E1C50051FC91 /* NLCSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLCSharingViewController.h; path = "calabash-test/NLCSharingViewController.h"; sourceTree = "<group>"; };
+		E48805F01818E1C50051FC91 /* NLCSharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLCSharingViewController.m; path = "calabash-test/NLCSharingViewController.m"; sourceTree = "<group>"; };
+		E48805F11818E1C50051FC91 /* NLCSharingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NLCSharingViewController.xib; path = "calabash-test/NLCSharingViewController.xib"; sourceTree = "<group>"; };
+		bd5eee1a5b051f0fd676b4f0 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67050cf5127e32741c099115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756b48c7d557a8dfc1a655e9 /* UIKit.framework in Frameworks */,
+				92135c68914ab9f03e776c10 /* Foundation.framework in Frameworks */,
+				85aed5c7d00c77ebf0ebf543 /* CoreGraphics.framework in Frameworks */,
+				0be8eb8323ac8d05689c48a2 /* libPods.a in Frameworks */,
+				8ba3bdb40d23c1607d0c1dc6 /* CFNetwork.framework in Frameworks */,
+				f78d7c45503200b661c4215f /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E442FA9D175444340084A1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442FAA4175444340084A1C6 /* UIKit.framework in Frameworks */,
+				E442FAA6175444340084A1C6 /* Foundation.framework in Frameworks */,
+				E442FAA8175444340084A1C6 /* CoreGraphics.framework in Frameworks */,
+				E9E0384A69134D3DB7DE0915 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E442FA97175444340084A1C6 = {
+			isa = PBXGroup;
+			children = (
+				E48805EF1818E1C50051FC91 /* NLCSharingViewController.h */,
+				E48805F01818E1C50051FC91 /* NLCSharingViewController.m */,
+				E48805F11818E1C50051FC91 /* NLCSharingViewController.xib */,
+				E442FAC3175447280084A1C6 /* Window-iPad.xib */,
+				E442FAC5175449A90084A1C6 /* NLCContentViewController.h */,
+				E442FAC6175449A90084A1C6 /* NLCContentViewController.m */,
+				E442FAC7175449A90084A1C6 /* NLCContentViewController.xib */,
+				E442FAA9175444340084A1C6 /* calabash-test */,
+				E442FAA2175444340084A1C6 /* Frameworks */,
+				E442FAA1175444340084A1C6 /* Products */,
+				AE2D3435AB944757A18A5622 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E442FAA1175444340084A1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E442FAA0175444340084A1C6 /* calabash-test.app */,
+				E48805EE1818DFB80051FC91 /* calabash-test-cal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E442FAA2175444340084A1C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E442FAA3175444340084A1C6 /* UIKit.framework */,
+				E442FAA5175444340084A1C6 /* Foundation.framework */,
+				E442FAA7175444340084A1C6 /* CoreGraphics.framework */,
+				63425BC8FF49483EB72FA681 /* libPods.a */,
+				bd5eee1a5b051f0fd676b4f0 /* CFNetwork.framework */,
+				663642d2d838f77132ff37fe /* calabash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E442FAA9175444340084A1C6 /* calabash-test */ = {
+			isa = PBXGroup;
+			children = (
+				E442FAC0175446100084A1C6 /* ThirdyPartyHacks.h */,
+				E442FAC1175446100084A1C6 /* ThirdyPartyHacks.m */,
+				E442FAB2175444340084A1C6 /* NLCAppDelegate.h */,
+				E442FAB3175444340084A1C6 /* NLCAppDelegate.m */,
+				E442FAAA175444340084A1C6 /* Supporting Files */,
+			);
+			path = "calabash-test";
+			sourceTree = "<group>";
+		};
+		E442FAAA175444340084A1C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E442FAAB175444340084A1C6 /* calabash-test-Info.plist */,
+				E442FAAC175444340084A1C6 /* InfoPlist.strings */,
+				E442FAAF175444340084A1C6 /* main.m */,
+				E442FAB1175444340084A1C6 /* calabash-test-Prefix.pch */,
+				E442FAB5175444340084A1C6 /* Default.png */,
+				E442FAB7175444340084A1C6 /* Default@2x.png */,
+				E442FAB9175444340084A1C6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18337fec941dd7ae31ce5f5e /* calabash-test-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300ead2aaad04136fed93c53 /* Build configuration list for PBXNativeTarget "calabash-test-cal" */;
+			buildPhases = (
+				e664a9661f4c204ff4233d6e /* Check Pods Manifest.lock */,
+				4a511a1da7c75ecd880cb57e /* Sources */,
+				67050cf5127e32741c099115 /* Frameworks */,
+				f61dce93e09cf66843b33421 /* Resources */,
+				f365b186af984026526d62c8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "calabash-test-cal";
+			productName = "calabash-test-cal";
+			productReference = E48805EE1818DFB80051FC91 /* calabash-test-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E442FA9F175444340084A1C6 /* calabash-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E442FABD175444340084A1C6 /* Build configuration list for PBXNativeTarget "calabash-test" */;
+			buildPhases = (
+				EBE5C2B11F3945C4807DA1D2 /* Check Pods Manifest.lock */,
+				E442FA9C175444340084A1C6 /* Sources */,
+				E442FA9D175444340084A1C6 /* Frameworks */,
+				E442FA9E175444340084A1C6 /* Resources */,
+				C7873303673D4A6B84B46A2D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "calabash-test";
+			productName = "calabash-test";
+			productReference = E442FAA0175444340084A1C6 /* calabash-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E442FA98175444340084A1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NLC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "News Limited";
+			};
+			buildConfigurationList = E442FA9B175444340084A1C6 /* Build configuration list for PBXProject "calabash-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E442FA97175444340084A1C6;
+			productRefGroup = E442FAA1175444340084A1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E442FA9F175444340084A1C6 /* calabash-test */,
+				18337fec941dd7ae31ce5f5e /* calabash-test-cal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E442FA9E175444340084A1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442FAAE175444340084A1C6 /* InfoPlist.strings in Resources */,
+				E442FAB6175444340084A1C6 /* Default.png in Resources */,
+				E442FAB8175444340084A1C6 /* Default@2x.png in Resources */,
+				E442FABA175444340084A1C6 /* Default-568h@2x.png in Resources */,
+				E442FAC4175447280084A1C6 /* Window-iPad.xib in Resources */,
+				E48805F41818E1C50051FC91 /* NLCSharingViewController.xib in Resources */,
+				E442FAC9175449A90084A1C6 /* NLCContentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		f61dce93e09cf66843b33421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7407f5111826346bd33c187b /* InfoPlist.strings in Resources */,
+				a85a882e4b46926bc15afb9a /* Default.png in Resources */,
+				93854582406430bfd1f42217 /* Default@2x.png in Resources */,
+				418f94dd744ef35931a97dc6 /* Default-568h@2x.png in Resources */,
+				0635d5c7b8590d1a33e29a72 /* Window-iPad.xib in Resources */,
+				E48805F51818E1C50051FC91 /* NLCSharingViewController.xib in Resources */,
+				51f8e27b5e14cf19dcefb23f /* NLCContentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7873303673D4A6B84B46A2D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		EBE5C2B11F3945C4807DA1D2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		e664a9661f4c204ff4233d6e /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		f365b186af984026526d62c8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4a511a1da7c75ecd880cb57e /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				aff55709c637243e4f0c1b65 /* main.m in Sources */,
+				E48805F31818E1C50051FC91 /* NLCSharingViewController.m in Sources */,
+				5089ee2b877a2a9ee6e9e0d9 /* NLCAppDelegate.m in Sources */,
+				c7d0c39ee8ed9b276ebcc913 /* ThirdyPartyHacks.m in Sources */,
+				2bd7c86751d16c67e949e0a1 /* NLCContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E442FA9C175444340084A1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E442FAB0175444340084A1C6 /* main.m in Sources */,
+				E48805F21818E1C50051FC91 /* NLCSharingViewController.m in Sources */,
+				E442FAB4175444340084A1C6 /* NLCAppDelegate.m in Sources */,
+				E442FAC2175446100084A1C6 /* ThirdyPartyHacks.m in Sources */,
+				E442FAC8175449A90084A1C6 /* NLCContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E442FAAC175444340084A1C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E442FAAD175444340084A1C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ca80548a6f9b9185f0be3e9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2D3435AB944757A18A5622 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calabash-test/calabash-test-Prefix.pch";
+				INFOPLIST_FILE = "calabash-test/calabash-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93bf3ff96bb1aacf98746c7e /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2D3435AB944757A18A5622 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calabash-test/calabash-test-Prefix.pch";
+				INFOPLIST_FILE = "calabash-test/calabash-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E442FABB175444340084A1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E442FABC175444340084A1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E442FABE175444340084A1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2D3435AB944757A18A5622 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calabash-test/calabash-test-Prefix.pch";
+				INFOPLIST_FILE = "calabash-test/calabash-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E442FABF175444340084A1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2D3435AB944757A18A5622 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calabash-test/calabash-test-Prefix.pch";
+				INFOPLIST_FILE = "calabash-test/calabash-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300ead2aaad04136fed93c53 /* Build configuration list for PBXNativeTarget "calabash-test-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ca80548a6f9b9185f0be3e9 /* Debug */,
+				93bf3ff96bb1aacf98746c7e /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E442FA9B175444340084A1C6 /* Build configuration list for PBXProject "calabash-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E442FABB175444340084A1C6 /* Debug */,
+				E442FABC175444340084A1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E442FABD175444340084A1C6 /* Build configuration list for PBXNativeTarget "calabash-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E442FABE175444340084A1C6 /* Debug */,
+				E442FABF175444340084A1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E442FA98175444340084A1C6 /* Project object */;
+}
