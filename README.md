@@ -8,19 +8,16 @@ Project uses CocoaPods so start with `pod install` after cloning.
 To add Calabash test target I used `calabash-ios setup` command.
 
 # Visibility Bug
-Visibility is broken in 0.9.146, visible and touchable elements are not returned by the query.
-The same app visibility is OK with 0.9.144
+This branch (`messages`) demonstrates bugs with `uia_` calls in Messages app.
 
-## 0.9.144
-Slider closed, all visible.
-![0.9.144, closed, visible](screenshots/144-sidebar-closed.png)
+It needs to be tested on iPad device.
+To build from command line use something like
 
-Slider opened, all visible.
-![0.9.144, open, visible](screenshots/144-sidebar-opened.png)
+    # Xcode 5 example
+    xcodebuild clean build -workspace calabash-test.xcworkspace -scheme calabash-test-cal -destination OS=6.1,name=iPad CONFIGURATION_BUILD_DIR=$(pwd)/buildreset OBJ_ROOT=$(pwd)/build SYM_ROOT=$(pwd)/build
 
-## 0.9.146
-Slider closed, all visible.
-![0.9.146, closed, visible](screenshots/146-sidebar-closed.png)
+There are 2 issues
 
-Slider opened, **visibility broken**.
-![0.9.146, open, visible](screenshots/146-sidebar-opened-bug.png)
+- The keyboard input toolbar (the one with photo button, text input field and Send button) is "invisible", that is not returned by `uia_query("view")`
+
+- In portrait orientation `uia_tap_mark("Cancel")` is working, but once device is rotated to landscape orientation, this call fails.
